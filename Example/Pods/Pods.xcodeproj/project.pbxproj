@@ -15,8 +15,8 @@
 		7B83211AE1504BFFADA67D3492A6B01C /* TrafficFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE178C4C7950936C8901DB33E21AB70D /* TrafficFramework-dummy.m */; };
 		AF230C2DCEA243C6B6B8DEF88AFE2BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B6F7A1EFFF671C3411B74570C17D301A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C9ADB55DD551E2D56F69ED4739882C45 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF935C1C11720BD82777D77CB0193EF8 /* ReplaceMe.swift */; };
 		CBACB1695B84247527710B4A80840BF8 /* Pods-TrafficFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CDCAC361107A7E2A25C48B4691757B /* Pods-TrafficFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0962AF11FEA738700B808D7 /* TrafficTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0962AF01FEA738700B808D7 /* TrafficTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 		09A26217BE714B46B18D1BD88FAE7912 /* Pods-TrafficFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrafficFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 		1496FC5CBC8CC5082EDE2A2485973F5B /* Pods-TrafficFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrafficFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		176DF653ED3923E2349A518632EB0F40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F93127076D37DDB086A5FD0A964A899 /* Pods-TrafficFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TrafficFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		1F93127076D37DDB086A5FD0A964A899 /* Pods-TrafficFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TrafficFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		2DE57F062F62424EFBB1958AEC629FFD /* Pods-TrafficFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrafficFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		36FE454CB9BE6D118C3C10F4CA9AB63E /* TrafficFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrafficFramework.xcconfig; sourceTree = "<group>"; };
 		418046CA32588B66DC4C60EDB4A2CF73 /* Pods-TrafficFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrafficFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -47,21 +47,21 @@
 		5D3F138CFD04F3D092ECAC0BA9F7CD04 /* Pods-TrafficFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrafficFramework_Tests-dummy.m"; sourceTree = "<group>"; };
 		64CDCAC361107A7E2A25C48B4691757B /* Pods-TrafficFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrafficFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		717977F1DE4B46CF5EAE893F7FF67566 /* TrafficFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TrafficFramework.framework; path = TrafficFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717977F1DE4B46CF5EAE893F7FF67566 /* TrafficFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrafficFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8081D66DA7AE9BA3B8A306DA46615096 /* Pods-TrafficFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrafficFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		886C89A937B34D26BAB0CF9BCE10566B /* Pods-TrafficFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrafficFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8972C7D28B6B03711C8BC6C8A53DCA96 /* Pods_TrafficFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrafficFramework_Example.framework; path = "Pods-TrafficFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8972C7D28B6B03711C8BC6C8A53DCA96 /* Pods_TrafficFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrafficFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921E35BAF6346FE9B53ED49B744871F5 /* Pods-TrafficFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrafficFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE178C4C7950936C8901DB33E21AB70D /* TrafficFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrafficFramework-dummy.m"; sourceTree = "<group>"; };
-		BB34D2832A9BF77E24CC3D91F648E015 /* TrafficFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TrafficFramework.modulemap; sourceTree = "<group>"; };
+		BB34D2832A9BF77E24CC3D91F648E015 /* TrafficFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TrafficFramework.modulemap; sourceTree = "<group>"; };
 		CA6ABEB316E08DE887F72F50F6AA6388 /* Pods-TrafficFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrafficFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7D93263BBA73AD1C87BCFE13D796EB0 /* Pods_TrafficFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrafficFramework_Tests.framework; path = "Pods-TrafficFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0962AF01FEA738700B808D7 /* TrafficTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficTest.swift; sourceTree = "<group>"; };
+		D7D93263BBA73AD1C87BCFE13D796EB0 /* Pods_TrafficFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrafficFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE56DB342810ACB867064642366BA8C /* TrafficFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrafficFramework-umbrella.h"; sourceTree = "<group>"; };
 		EE66094A140D3B3226196257F103A484 /* Pods-TrafficFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrafficFramework_Example-resources.sh"; sourceTree = "<group>"; };
-		F83654E245A9447ED6488006AADB0745 /* Pods-TrafficFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TrafficFramework_Example.modulemap"; sourceTree = "<group>"; };
+		F83654E245A9447ED6488006AADB0745 /* Pods-TrafficFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TrafficFramework_Example.modulemap"; sourceTree = "<group>"; };
 		FE7F0E59BEB61B87784941B243DB0781 /* Pods-TrafficFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrafficFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FF935C1C11720BD82777D77CB0193EF8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,6 @@
 			children = (
 				84EDE1FFDD3BDF8C6A559B93569FAB29 /* Classes */,
 			);
-			name = TrafficFramework;
 			path = TrafficFramework;
 			sourceTree = "<group>";
 		};
@@ -182,9 +181,8 @@
 		84EDE1FFDD3BDF8C6A559B93569FAB29 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FF935C1C11720BD82777D77CB0193EF8 /* ReplaceMe.swift */,
+				D0962AF01FEA738700B808D7 /* TrafficTest.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +312,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					92F62341B881DBAAC14530C6AF3BA1FE = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,7 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9ADB55DD551E2D56F69ED4739882C45 /* ReplaceMe.swift in Sources */,
 				7B83211AE1504BFFADA67D3492A6B01C /* TrafficFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0606B80203AD0B51F0F6E3A631ED8BA4 /* Pods-TrafficFramework_Example-dummy.m in Sources */,
+				D0962AF11FEA738700B808D7 /* TrafficTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E4FF2431A721A206639BB902887C6D9 /* Pods-TrafficFramework_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -493,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8081D66DA7AE9BA3B8A306DA46615096 /* Pods-TrafficFramework_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
