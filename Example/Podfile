@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TrafficFramework_Example' do
+  pod 'TrafficFramework', :path => '../'
+
+  target 'TrafficFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
