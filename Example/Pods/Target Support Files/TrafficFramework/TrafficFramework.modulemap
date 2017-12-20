@@ -1,0 +1,6 @@
+framework module TrafficFramework {
+  umbrella header "TrafficFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TrafficFramework (0.1.0)
+
+DEPENDENCIES:
+  - TrafficFramework (from `../`)
+
+EXTERNAL SOURCES:
+  TrafficFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrafficFramework: 128c1e6acf3ac753133c5e7f71889e883dcdc2bf
+
+PODFILE CHECKSUM: 397e8f4435eca9e01e10f87326b1f75b99ac9408
+
+COCOAPODS: 1.2.1
